@@ -5,11 +5,8 @@ This project implements a SIP (Systematic Investment Plan) calculator that takes
 
 ## Implementation Details
 - The code is lightweight and can run entirely on the frontend.
-- The function `sip_calculator` accepts a dictionary containing:
-  - `monthly_investment` (float): Monthly investment amount.
-  - `rate_of_return` (float): Annual return rate (in percentage).
-  - `years` (int): Investment duration in years.
-- The function returns a dictionary with the computed `future_value`.
+- Each code accepts a dictionary input.
+- The function returns a dictionary with the computed.
 
 ## Integration Notes
 - The provided example usage in the code should be commented out before embedding.
@@ -25,3 +22,9 @@ inputs = {
 }
 result = sip_calculator(inputs)
 print(result)  # Expected output: {'monthly_investment': ..., 'rate_of_return': ..., 'years': ..., 'future_value': ...}
+
+```
+## Please refer to this image for the exact structure of frontend. 
+
+![image](https://github.com/user-attachments/assets/09a960d0-b6be-4291-b4a5-282a3e5f83ee)
+
